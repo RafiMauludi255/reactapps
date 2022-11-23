@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Quicksand;
+}
+
+.body nav {
+  display: flex;
+  margin: 0 5%;
+  line-height: 50px;
+}
+.body nav .logo {
+  font-weight: 600;
+}
+.body nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 65%;
+  font-weight: 500;
+  color: rgb(77, 77, 82);
+}
+.body nav li {
+  padding: 0 5%;
+  cursor: pointer;
+  transition: all ease-in-out 0.25s;
+}
+.body nav li:hover {
+  color: rgb(29, 29, 34);
+}
+.body .Hero {
+  padding: 15% 0 0 10%;
+}
+.body .Hero h1 {
+  font-size: 50px;
+  padding-right: 50%;
+  color: rgb(40, 40, 47);
+}
+.body .Hero p {
+  padding-right: 65%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.body .Hero img {
+  margin: -10% 0 0 35%;
+  position: absolute;
+}
+.body .Hero Button {
+  background-color: orange;
+  width: 200px;
+  height: 50px;
+  border: inset black, gray 1px;
+  font-size: 16px;
+  box-shadow: 0px 1px 2px rgb(40, 40, 47);
+  cursor: pointer;
+  transition: all ease-in-out 0.25s;
+}
+.body .Hero Button:hover {
+  box-shadow: 0px 4px 4px rgb(40, 40, 47);
+}
+
+/*# sourceMappingURL=apk.css.map */
